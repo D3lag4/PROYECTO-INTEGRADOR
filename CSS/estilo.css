@@ -3,10 +3,48 @@
     flex-direction: column;
     gap: 5px;
 }
-.navegacion{
+.navegacion{display: flex;
+    justify-content:space-between;
     background-color: cadetblue;
     border: 1px solid black;
-    height: 60px;
+}
+
+.logo {
+    margin-top: 20px;
+    height: 40px;
+    width: 60px;
+}
+
+.Titulo {
+    margin-top: -30px;
+    margin-left: 65px;
+}
+
+.navLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.navCenter {
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 35px;
+    color: gray;
+}
+
+.navRight {
+    margin-top: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-registrarse {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 .header{
@@ -16,6 +54,7 @@
 }
 
 .caracteristicas{
+    justify-content: space-between;
     background-color: burlywood;
     border: 1px solid black;
     height: 200px;
