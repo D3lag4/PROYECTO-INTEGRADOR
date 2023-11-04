@@ -4,8 +4,9 @@
     gap: 5px;
 }
 
-.navegacion{display: flex;
-    justify-content:space-between;
+.navegacion {
+    display: flex;
+    justify-content: space-between;
     background-color: cadetblue;
     border: 1px solid black;
 }
@@ -57,40 +58,50 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    }
+}
 
 .leftHeader {
     flex-direction: column;
     align-items: center;
 }
 
-#workingPeople{
+#workingPeople {
     height: 350px;
     width: 450px;
-    }
-
-#blueDots{
-    position: absolute;
-    top: 520px;
-    left: 980px;
 }
 
-#yellowCircle{
+#blueDots {
     position: absolute;
-    top: 160px;
-    left: 580px;
+    top: 470px;
+    left: 950px;
+}
+
+#yellowCircle {
+    position: absolute;
+    top: 120px;
+    left: 530px;
 }
 
 .caracteristicas {
-    justify-content: space-between;
-    background-color: burlywood;
     border: 1px solid black;
     height: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+#squareGreen {
+    background-color: green;
+    height: 42px;
+    width: 42px;
+    border-radius: 12%;
+}
+
+.charIcon {
+    padding: 8px;
+    filter: invert(1000%);
 
 }
 
@@ -110,6 +121,7 @@
     justify-content: center;
 }
 
+
 .solutions {
     display: flex;
     flex-direction: column;
@@ -121,25 +133,49 @@
 .precios {
     background-color: bisque;
     border: 1px solid black;
-    height: 400px;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
+    height: 100px;
+    text-align: center;
 }
 
-.options{
+#confirmation {
+    color: white;
+    background-color: green;
+    border-radius: 100%;
+}
+
+.options {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
+.priceOptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceDetails {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.priceRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+}
+
+
 .footer {
-    background-color: darkorange;
     border: 1px solid black;
     height: 200px;
 }
@@ -152,21 +188,14 @@
         flex-direction: column;
     }
 
-    .navegacion{
+    .navegacion {
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        background-color: cadetblue;
-        border: 1px solid black;
+        justify-content: space-between;
+        
     }
-    
-
-
-
 
     .header {
-        background-color: aquamarine;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -178,19 +207,17 @@
         transform: scale(50%);
     }
 
-    #blueDots{
+    #blueDots {
         position: absolute;
         top: 550px;
         left: 1100px;
     }
-    
-    #yellowCircle{
+
+    #yellowCircle {
         position: absolute;
         top: 100px;
         left: 600px;
     }
-    
-
 
     .leftHeader {
         flex-direction: column;
@@ -198,30 +225,18 @@
     }
 
     .caracteristicas {
-        background-color: burlywood;
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         align-items: center;
         align-content: center;
         justify-content: center;
-
     }
 
     .precios {
-        background-color: bisque;
-        border: 1px solid black;
-
-
+       
     }
 
     .footer {
-        background-color: darkorange;
-        border: 1px solid black;
+              
 
-
-
-
-
-
-    }
+   }
