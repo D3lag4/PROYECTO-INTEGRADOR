@@ -4,6 +4,10 @@
     gap: 5px;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .navegacion {
     height: 100px;
     display: flex;
@@ -51,7 +55,7 @@
 }
 
 .header {
-    border: 1px solid black;
+    
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -97,7 +101,7 @@
 }
 
 .caracteristicas {
-    border: 1px solid black;
+    
     height: 200px;
     display: flex;
     flex-direction: row;
@@ -145,8 +149,7 @@
 }
 
 .precios {
-    background-color: bisque;
-    border: 1px solid black;
+  
     height: 150px;
     text-align: center;
 }
@@ -192,8 +195,6 @@
 
 .footer {
     height: 150px;
-    border: 1px solid black;
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,6 +205,7 @@
         display: flex;
         flex-direction: row;
         justify-items: center;
+        justify-content: space-around;
             }
 
 #footLogo {
