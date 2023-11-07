@@ -20,25 +20,25 @@
 
     <nav class="navegacion">
       <div>
-        <img src="./imagenes/logo-verde.png" class="logo" alt="">
+        <img src="./imagenes/logo-verde.png" id="topLogo" alt="logo">
         <h1 class="titulo">Flex</h1>
       </div>
 
       <div class="navCenter">
-        <a href="producto">Producto</a>
-        <a href="productos">Caracteristicas</a>
-        <a href="caracteristicas">Precios</a>
+        <a href="#product">Producto</a>
+        <a href="#description">Caracteristicas</a>
+        <a href="#price">Precios</a>
       </div>
 
       <div class="navRight">
         <a href="precios">Ingresar</a>
-        <button class="btn-registrarse">Registrarse</button>
+        <button id="btn-registrarse">Registrarse</button>
       </div>
     </nav>
 
 
     <!--header de presentación-->
-    <header class="header">
+    <header class="header" id="product">
 
       <div class="leftHeader">
         <span id="new">NUEVO</span>
@@ -57,7 +57,7 @@
     </header>
 
     <!--Sección de características y ventajas-->
-    <section class="caracteristicas">
+    <section class="caracteristicas" id="description">
 
       <div class="training">
         <span id="squareGreen">
@@ -86,7 +86,7 @@
     </section>
     
     <!--Div de presentación de precios-->
-    <div class="precios">
+    <div class="precios" id="price">
 
       <h2>Precios flexibles que escalan contigo</h2>
       <p>Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de prueba de 7 días en todos nuestros planes
@@ -211,7 +211,7 @@
     <footer class="footer">
 
       <div class="footLogo">
-        <img id="footLogo" src="./imagenes/./logo-verde.png" alt="logo">
+        <img id="bottomLogo" src="./imagenes/./logo-verde.png" alt="logo">
         <span id="footFlex">Flex</span>
       </div>
 
@@ -225,8 +225,8 @@
         <a href="Privacidad">Privacidad</a>
       </div>
 
-      <div class="grisClaro">
-        2022 Flex.Un producto ficticio de Senpai
+      <div class="productId">
+        <p>2022 Flex.Un producto ficticio de Senpai.</p>
       </div>
 
     </footer>
