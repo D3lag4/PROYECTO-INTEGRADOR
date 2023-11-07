@@ -163,7 +163,7 @@ a{
     text-align: center;
 }
 
-#confirmation {
+.confirmation {
     color: white;
     background-color: green;
     border-radius: 100%;
@@ -215,7 +215,7 @@ a{
     flex-direction: row;
     justify-content: left;
     padding-left: 20px;
-    }
+}
 
 
 .footer {
