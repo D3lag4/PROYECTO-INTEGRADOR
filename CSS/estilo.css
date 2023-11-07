@@ -18,6 +18,7 @@ a{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -35,6 +36,7 @@ a{
 .navLeft {
     display: flex;
     flex-direction: row;
+
 }
 
 .navCenter {
@@ -55,7 +57,7 @@ a{
     text-decoration: none;
     background-color: green;
     color: white;
-    border-radius: 5px;
+    border-radius: 15%;
     padding: 15px;
 }
 
