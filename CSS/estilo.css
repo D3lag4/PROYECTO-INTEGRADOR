@@ -10,15 +10,14 @@ a:link {
     color:rgb(73, 61, 61);
 }
 
-a{ margin:0 15px;
-
+a{ 
+    margin:0 15px;
 }
 
 .navegacion {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .logo {
@@ -27,7 +26,7 @@ a{ margin:0 15px;
     width: 60px;
 }
 
-.Titulo {
+.titulo {
     margin-top: -30px;
     margin-left: 65px;
     font-weight: 800;
@@ -58,7 +57,6 @@ a{ margin:0 15px;
     color: white;
     border-radius: 5px;
     padding: 15px;
-
 }
 
 .header {
@@ -88,6 +86,8 @@ a{ margin:0 15px;
 .demo{
     color: white;
     background-color: green;
+    height: 40px;
+
 }
 
 
@@ -157,7 +157,6 @@ a{ margin:0 15px;
 }
 
 .precios {
-  
     height: 150px;
     text-align: center;
 }
@@ -167,11 +166,10 @@ a{ margin:0 15px;
     background-color: green;
     border-radius: 100%;
     margin-right: 15px;
-    width: 20px;
-}
+    }
 
 .options {
-    height: 450px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -179,9 +177,8 @@ a{ margin:0 15px;
 
 .priceOptions {
     display: flex;
-    width: 300px;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: rgba(250, 246, 246, 0.788);
 }
 
 .priceHeader {
@@ -193,7 +190,7 @@ a{ margin:0 15px;
 
 .headerColor {
     color: rgb(39, 187, 64);
-    font-size: 25px;
+    font-size: 15px;
 }
     
 
@@ -201,17 +198,14 @@ a{ margin:0 15px;
     color: gray;
 }
 
-
-
 .precioFuente {
-    font-size: 40px;
+    font-size: 30px;
     font: bold;
 }
 
 .priceDetails {
     display: flex;
     flex-direction: column;
-
 }
 
 .priceRows {
@@ -240,8 +234,7 @@ a{ margin:0 15px;
 .footOptions{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-             
+        justify-content: space-around;           
     }
 
 #footLogo {
