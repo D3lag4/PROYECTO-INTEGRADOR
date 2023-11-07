@@ -6,13 +6,13 @@
 
 a:link {
     text-decoration: none;
+    color:rgb(73, 61, 61);
 }
 
 .navegacion {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: cadetblue;
     border: 1px solid black;
 }
 
@@ -25,6 +25,7 @@ a:link {
 .Titulo {
     margin-top: -30px;
     margin-left: 65px;
+    font-weight: 800;
 }
 
 .navLeft {
@@ -36,13 +37,14 @@ a:link {
     justify-content: space-around;
     text-decoration: none;
     margin-top: 35px;
-    color: gray;
+    color: rgb(97, 89, 93);
+    font-weight: bold;
 }
 
 .navRight {
     margin-top: 35px;
     color: black;
-    text-decoration: none;
+    font-weight: bold;
 }
 
 .btn-registrarse {
@@ -50,7 +52,7 @@ a:link {
     background-color: green;
     color: white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -158,6 +160,8 @@ a:link {
     color: white;
     background-color: green;
     border-radius: 100%;
+    margin-right: 15px;
+    width: 20px;
 }
 
 .options {
@@ -177,6 +181,23 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.headerColor {
+    color: rgb(39, 187, 64);
+    font-size: 25px;
+}
+    
+
+.grisClaro {
+    color: gray;
+}
+
+
+
+.precioFuente {
+    font-size: 40px;
+    font: bold;
 }
 
 .priceDetails {
