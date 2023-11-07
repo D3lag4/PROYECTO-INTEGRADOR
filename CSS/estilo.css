@@ -1,11 +1,16 @@
 .layout {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:link {
     text-decoration: none;
+}
+
+a{ margin:0 15px;
+
 }
 
 .navegacion {
@@ -55,27 +60,27 @@ a:link {
 }
 
 .header {
-    
     height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
-    justify-content: center;
+    align-content: left;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .leftHeader {
     flex-direction: column;
     align-items: center;
 }
+
 #new{
     color: white;
     background-color: green;
     height: 2rem;
     padding-inline: 10px;
     border-radius: 40%;
-   font-size: 15px;
-
+    font-size: 15px;
 }
 
 .demo{
@@ -83,21 +88,22 @@ a:link {
     background-color: green;
 }
 
+
+
 #workingPeople {
-    height: 350px;
-    width: 450px;
+    margin-right: 10px;
 }
 
 #blueDots {
     position: absolute;
-    top: 470px;
-    left: 950px;
+    top: 600px;
+    left: 1090px;
 }
 
 #yellowCircle {
     position: absolute;
-    top: 120px;
-    left: 530px;
+    top: 130px;
+    left: 590px;
 }
 
 .caracteristicas {
@@ -169,7 +175,9 @@ a:link {
 
 .priceOptions {
     display: flex;
+    width: 300px;
     flex-direction: column;
+    background-color: lightgrey;
 }
 
 .priceHeader {
@@ -189,24 +197,31 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: baseline;
-}
+    padding-left: 20px;
+    }
 
 
 .footer {
-    height: 150px;
+    background-color: rgb(13, 13, 27);
+    margin-top: 50px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+     }
 
-    }
+ #footFlex{
+    color: white;
+ }    
 
 .footOptions{
         display: flex;
         flex-direction: row;
-        justify-items: center;
         justify-content: space-around;
-            }
+             
+    }
 
 #footLogo {
     height: 20px;
@@ -223,39 +238,51 @@ a:link {
     .layout {
         display: flex;
         flex-direction: column;
+        justify-items: flex-start;
     }
 
     .navegacion {
         height: 244px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        
+        justify-content: center;
+        align-items: center;
+    
     }
 
     .header {
-        height: 600px;
+        height: 500px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
+        
     }
 
     #workingPeople {
-        transform: scale(50%);
+        transform: scale(60%);
     }
 
     #blueDots {
         position: absolute;
-        top: 550px;
-        left: 1100px;
+        top: 600px;
+        left: 1090px;
+    }
+    
+    #yellowCircle {
+        position: absolute;
+        top: 130px;
+        left: 590px;
+    }
+
+    #blueDots {
+        position: absolute;
+        top: 850px;
+        left: 250px;
     }
 
     #yellowCircle {
         position: absolute;
-        top: 100px;
-        left: 600px;
+        top: 560px;
+        left: 10px;
     }
 
     .leftHeader {
@@ -264,7 +291,8 @@ a:link {
     }
 
     .caracteristicas {
-        height: 600px;
+        padding-top: 90px;
+        height: 550px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -273,8 +301,8 @@ a:link {
     }
 
     .precios {
-       
         height: 150px;
+        padding: 30px;
     }
 
     .options{
@@ -289,10 +317,13 @@ a:link {
     .footer {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         height: 250px;      
 
    }
    .footOptions{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 10px;
    }
