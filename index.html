@@ -129,7 +129,7 @@
 
         </div>
 
-        <button type="button" class="demo">Solicitar demo</button>
+        <button type="button" class="demoRequest">Solicitar demo</button>
 
       </div>
 
@@ -165,7 +165,7 @@
 
         </div>
 
-        <button type="button" class="demo">Solicitar demo</button>
+        <button type="button" class="demoRequest">Solicitar demo</button>
       </div>
 
       <div class="priceOptions">
@@ -173,7 +173,7 @@
         <div class="priceHeader">
           <h5 class="headerColor">PRECIO</h5>
           <P class="headerColor">Plan empresas</P>
-          <p class="precioFuente">$799 /mes</p>
+          <p class="precioFuente"><sup class="dolar">$</sup>799 /mes</p>
           <p class="grisClaro">Facturado anualmente</p>
         </div>
 
@@ -201,7 +201,7 @@
 
         </div>
 
-        <button type="button" class="demo">Solicitar demo</button>
+        <button type="button" class="demoRequest">Solicitar demo</button>
       </div>
 
     </section>
@@ -226,12 +226,19 @@
       </div>
 
       <div class="productId">
-        <p>2022 Flex.Un producto ficticio de Senpai.</p>
+        <p id="bottom"> © 2022 Flex.Un producto ficticio de Senpai.</p>
       </div>
 
     </footer>
 
   </div>
+
+  <dialog id="miModal">
+    <p>Aquí va el contenido del modal</p>
+    <button id="botonCerrar" type="button" autofocus>Cerrar</button>
+  </dialog>
+
+<button type="button" id="btn-registrarse">Mostrar el modal</button>
 
   <script src="./JavaScript/proyecto.js">
 

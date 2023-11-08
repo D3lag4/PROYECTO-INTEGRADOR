@@ -37,8 +37,6 @@ a{
 .navLeft {
     display: flex;
     flex-direction: row;
-    
-
 }
 
 .navCenter {
@@ -58,7 +56,12 @@ a{
     background-color: #2ad167;
     color: white;
     border-radius: 15%;
-    padding: 15px;
+    padding: 5px;
+    width: 100px;
+}
+
+p{
+     color:#2a3342;
 }
 
 .header {
@@ -89,6 +92,15 @@ a{
     color: white;
     background-color:#2ad167;
     height: 40px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+#register{
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 10%;
 }
 
 #workingPeople {
@@ -173,6 +185,10 @@ a{
     justify-content: space-around;
 }
 
+.dolar{
+    font-size: 1.15rem;
+    margin-bottom: 5px;
+}
 .priceOptions {
     display: flex;
     flex-direction: column;
@@ -214,6 +230,14 @@ a{
     padding-left: 20px;
 }
 
+.demoRequest{
+    color: white;
+    background-color:#2ad167;
+    height:90px;
+    width: 300px;
+    border-radius: 10%;
+}
+
 
 .footer {
     background-color: #2a3342;
@@ -234,8 +258,10 @@ a{
         height: 30px;
         width: 45px;
     }
+
  #footFlex{
     color: white;
+    font-size: 30px;
  }    
 
 .footOptions{
@@ -243,6 +269,10 @@ a{
         flex-direction: row;
         justify-content: space-around;           
     }
+
+#bottom{
+    color: #93a1b6;
+}    
 
 .productId{
     color: #93a1b6;
@@ -348,5 +378,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     padding-inline: 10px;
+   }
+}
    }
   }
