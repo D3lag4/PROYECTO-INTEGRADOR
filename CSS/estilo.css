@@ -279,7 +279,12 @@ p{
 }
 
 
-
+#modalogo {
+    height: 70px;
+    width: 80px;
+    background-color: #2ad167;
+    border-radius: 20px;
+}
 
 
 /*Mobile Version*/

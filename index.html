@@ -233,11 +233,24 @@
 
   </div>
 
-  <dialog id="miModal">
-    <p>Aquí va el contenido del modal</p>
+  
+  <dialog id="miModal"> 
+    <div> 
+      <img  id="modalogo"   src="./imagenes/logo-blanco.png" alt="">
+    <p>Ingresa a tu cuenta</p>
+    <p>y empieza a conseguir resultados</p>
+  </div>
+
+  
+    <form action="action_page.">
+      <label for="text">Correo</label><br>
+      <input type="text" id="ecorreo" placeholder="tu-correo@senpaiacademy"><br>
+      <label for="number">Contraseña</label><br>
+      <input type="text" id="econtraseña" placeholder="Ingresar contraseña"><br><br>
+      <input type="submit" value="Ingresar">
+    </form>
     <button id="botonCerrar" type="button" autofocus>Cerrar</button>
   </dialog>
-
 <button type="button" id="btn-registrarse">Mostrar el modal</button>
 
   <script src="./JavaScript/proyecto.js">
