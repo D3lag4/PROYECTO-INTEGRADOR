@@ -292,12 +292,69 @@ p {
 }
 
 #modalogo {
-    height: 70px;
-    width: 80px;
+    height: 50px;
+    width: 70px;
     background-color: #2ad167;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
+#miModal{
+    height: 450px;
+    width: 650px;
+    background-color: #2a3342;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+.modalHead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+#email{
+    color: #f7f8f9;
+}
+
+#password{
+    color: #f7f8f9;
+}
+
+#ecorreo{
+    width: 250px;
+}
+
+#econtrasena{
+    width: 250px;
+}
+
+.modal{
+    color: #f7f8f9;
+    font-size: 30px;
+ }
+
+.modal2{
+    color:#93a1b6;
+    font-size: 20px;
+}
+
+#modalIngresar{
+    padding-top: 10px;
+    background-color: #2ad167;
+    color: #f7f8f9;
+    width: 250px;
+
+}
+#pregunta{
+    color: #f7f8f9;
+}
+
+#botonCerrar{
+    color: #2ad167;
+    margin-top: 15px;
+}
 
 /*Mobile Version*/
 @media only screen and (max-width:390px) and (max-height:844px) {

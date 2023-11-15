@@ -12,7 +12,7 @@
 <body>
 
   <!--Container principal-->
-  
+
   <div class="layout">
 
 
@@ -84,7 +84,7 @@
       </div>
 
     </section>
-    
+
     <!--Div de presentación de precios-->
     <div class="precios" id="price">
 
@@ -109,22 +109,22 @@
 
           <div class="priceRows">
             <span class="confirmation">✔</span>
-            <p>    1GB de almacenamiento</p>
+            <p> 1GB de almacenamiento</p>
           </div>
 
           <div class="priceRows">
             <span class="confirmation">✔</span>
-            <p>    Dashboard completo</p>
+            <p> Dashboard completo</p>
           </div>
 
           <div class="priceRows">
             <span class="confirmation">✔</span>
-            <p>    Asistencia por correo</p>
+            <p> Asistencia por correo</p>
           </div>
 
           <div class="priceRows">
             <span class="confirmation">✔</span>
-            <p>    Hasta 10 miembros</p>
+            <p> Hasta 10 miembros</p>
           </div>
 
         </div>
@@ -157,7 +157,7 @@
             <span class="confirmation">✔</span>
             <p>100GB de almacenamiento</p>
           </div>
-          
+
           <div class="priceRows">
             <span class="confirmation">✔</span>
             <p>Hasta 100 miembros</p>
@@ -233,23 +233,25 @@
 
   </div>
 
-  
-  <dialog id="miModal"> 
-    <div> 
-      <img  id="modalogo"   src="./imagenes/logo-blanco.png" alt="">
-    <p>Ingresa a tu cuenta</p>
-    <p>y empieza a conseguir resultados</p>
-  </div>
 
-  
+  <dialog id="miModal">
+    <div class="modalHead">
+      <img id="modalogo" src="./imagenes/logo-blanco.png" alt="">
+      <p class="modal">Ingresa a tu cuenta</p>
+      <p class="modal2 "> y empieza a conseguir resultados</p>
+    </div>
+
+
     <form action="action_page.">
-      <label for="text">Correo</label><br>
+      <label id="email" for="text">Correo</label><br>
       <input type="text" id="ecorreo" placeholder="tu-correo@senpaiacademy"><br>
-      <label for="number">Contraseña</label><br>
-      <input type="text" id="econtraseña" placeholder="Ingresar contraseña"><br><br>
-      <input type="submit" value="Ingresar">
+      <label id="password" for="text">Contraseña</label><br>
+      <input type="text" id="econtrasena" placeholder="Ingresar contraseña"><br><br>
     </form>
-    <button id="botonCerrar" type="button" autofocus>Cerrar</button>
+
+    <button id="modalIngresar" type="submit">Ingresar</button>
+    <p id="pregunta">Aún no tienes cuenta?</p>
+    <button id="botonCerrar" type="button" autofocus>Registrarse</button>
   </dialog>
 
   <script src="./JavaScript/proyecto.js">
